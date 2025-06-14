@@ -1,0 +1,15 @@
+--  Employee
+CREATE TABLE Employee (
+    ID INT PRIMARY KEY,
+    NAME VARCHAR(100),
+    AGE INT,
+    ADDRESS VARCHAR(200),
+    SALARY DECIMAL(10, 2)
+);
+
+--  Company
+CREATE TABLE Company (
+    ID INT PRIMARY KEY,
+    NAME VARCHAR(100),
+    ADDRESS VARCHAR(200)
+);
